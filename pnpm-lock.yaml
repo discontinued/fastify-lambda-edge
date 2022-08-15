@@ -324,8 +324,8 @@ packages:
     resolution: {integrity: sha512-XPSJHWmi394fuUuzDnGz1wiKqWfo1yXecHQMRf2l6hztTO+nPru658AyDngaBe7isIxEkRsPR3FZh+s7iVa4Uw==}
     dev: true
 
-  /@jridgewell/trace-mapping/0.3.14:
-    resolution: {integrity: sha512-bJWEfQ9lPTvm3SneWwRFVLzrh6nhjwqw7TUFFBEMzwvg7t7PCDenf2lDwqo4NQXzdpgBXyFgDWnQA+2vkruksQ==}
+  /@jridgewell/trace-mapping/0.3.15:
+    resolution: {integrity: sha512-oWZNOULl+UbhsgB51uuZzglikfIKSUBO/M9W2OfEjn7cmqoAiCgmv9lyACTUacZwBz0ITnJ2NqjU8Tx0DHL88g==}
     dependencies:
       '@jridgewell/resolve-uri': 3.1.0
       '@jridgewell/sourcemap-codec': 1.4.14
@@ -550,7 +550,7 @@ packages:
       lodash: 4.17.21
       nerf-dart: 1.0.0
       normalize-url: 6.1.0
-      npm: 8.16.0
+      npm: 8.17.0
       rc: 1.2.8
       read-pkg: 5.2.0
       registry-auth-token: 4.2.2
@@ -3042,8 +3042,8 @@ packages:
       path-key: 4.0.0
     dev: true
 
-  /npm/8.16.0:
-    resolution: {integrity: sha512-UfLT/hCbcpV9uiTEBthyrOlQxwk8LG5tAGn283g7f7pRx41KcwFiHV7HYgYm2y2GabfnPtf897ptrXRQwxJWzQ==}
+  /npm/8.17.0:
+    resolution: {integrity: sha512-tIcfZd541v86Sqrf+t/GW6ivqiT8b/2b3EAjNw3vRe+eVnL4mlkVwu17hjCOrsPVntLb5C6tQG4jPUE5Oveeyw==}
     engines: {node: ^12.13.0 || ^14.15.0 || >=16}
     hasBin: true
     dev: true
@@ -4188,7 +4188,7 @@ packages:
     resolution: {integrity: sha512-74Y4LqY74kLE6IFyIjPtkSTWzUZmj8tdHT9Ii/26dvQ6K9Dl2NbEfj0XgU2sHCtKgt5VupqhlO/5aWuqS+IY1w==}
     engines: {node: '>=10.12.0'}
     dependencies:
-      '@jridgewell/trace-mapping': 0.3.14
+      '@jridgewell/trace-mapping': 0.3.15
       '@types/istanbul-lib-coverage': 2.0.4
       convert-source-map: 1.8.0
     dev: true
