@@ -1581,7 +1581,7 @@ packages:
       supports-color: 8.1.1
     dev: true
 
-  /debug/4.3.4_supports-color@9.3.0:
+  /debug/4.3.4_supports-color@9.3.1:
     resolution: {integrity: sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==}
     engines: {node: '>=6.0'}
     peerDependencies:
@@ -1591,7 +1591,7 @@ packages:
         optional: true
     dependencies:
       ms: 2.1.2
-      supports-color: 9.3.0
+      supports-color: 9.3.1
     dev: true
 
   /decamelize-keys/1.1.1:
@@ -2724,7 +2724,7 @@ packages:
       cli-truncate: 3.1.0
       colorette: 2.0.19
       commander: 9.4.1
-      debug: 4.3.4_supports-color@9.3.0
+      debug: 4.3.4_supports-color@9.3.1
       execa: 5.1.1
       lilconfig: 2.0.5
       listr2: 4.0.5
@@ -2733,7 +2733,7 @@ packages:
       object-inspect: 1.12.2
       pidtree: 0.5.0
       string-argv: 0.3.1
-      supports-color: 9.3.0
+      supports-color: 9.3.1
       yaml: 1.10.2
     transitivePeerDependencies:
       - enquirer
@@ -2753,7 +2753,7 @@ packages:
       log-update: 4.0.0
       p-map: 4.0.0
       rfdc: 1.3.0
-      rxjs: 7.6.0
+      rxjs: 7.8.0
       through: 2.3.8
       wrap-ansi: 7.0.0
     dev: true
@@ -3656,8 +3656,8 @@ packages:
       queue-microtask: 1.2.3
     dev: true
 
-  /rxjs/7.6.0:
-    resolution: {integrity: sha512-DDa7d8TFNUalGC9VqXvQ1euWNN7sc63TrUCuM9J998+ViviahMIjKSOU7rfcgFOF+FCD71BhDRv4hrFz+ImDLQ==}
+  /rxjs/7.8.0:
+    resolution: {integrity: sha512-F2+gxDshqmIub1KdvZkaEfGDwLNpPvk9Fs6LD/MyQxNgMds/WH9OdDDXOmxUZpME+iSK3rQCctkL0DYyytUqMg==}
     dependencies:
       tslib: 2.4.1
     dev: true
@@ -4004,8 +4004,8 @@ packages:
       has-flag: 4.0.0
     dev: true
 
-  /supports-color/9.3.0:
-    resolution: {integrity: sha512-hJ6RYjNbcBFkpHi+ykjar+7GgHs+65Kxyw940nBLOSjaWZ13acq4A5f+gWiV5w+xfsg5MbnjDxTigLcUuljerw==}
+  /supports-color/9.3.1:
+    resolution: {integrity: sha512-knBY82pjmnIzK3NifMo3RxEIRD9E0kIzV4BKcyTZ9+9kWgLMxd4PrsTSMoFQUabgRBbF8KOLRDCyKgNV+iK44Q==}
     engines: {node: '>=12'}
     dev: true
 
