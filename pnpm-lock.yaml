@@ -17,7 +17,7 @@ specifiers:
   eslint: 8.31.0
   eslint-config-escapace: 3.16.0
   eslint-config-prettier: 8.6.0
-  eslint-plugin-editorconfig: 3.2.0
+  eslint-plugin-editorconfig: 4.0.2
   eslint-plugin-no-null: 1.0.2
   execa: 6.1.0
   fast-glob: 3.2.12
@@ -49,9 +49,9 @@ devDependencies:
   chai: 4.3.7
   esbuild: 0.16.16
   eslint: 8.31.0
-  eslint-config-escapace: 3.16.0_4js6qozvz5mnhhbxemm3bf3j74
+  eslint-config-escapace: 3.16.0_lv32o7hjzvmnmqw6p4lsgwullm
   eslint-config-prettier: 8.6.0_eslint@8.31.0
-  eslint-plugin-editorconfig: 3.2.0_pztxdmiyjrarwygpoci73rl4sq
+  eslint-plugin-editorconfig: 4.0.2
   eslint-plugin-no-null: 1.0.2_eslint@8.31.0
   execa: 6.1.0
   fast-glob: 3.2.12
@@ -1770,7 +1770,7 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /eslint-config-escapace/3.16.0_4js6qozvz5mnhhbxemm3bf3j74:
+  /eslint-config-escapace/3.16.0_lv32o7hjzvmnmqw6p4lsgwullm:
     resolution: {integrity: sha512-XvTd4w6siJJWNu70RjaH63/iksGXA3E19HIZZvQkV1sa1o7dvai0n0XFVXqVyL0Ie8HpujeDOrPWHgM0vol5ew==}
     peerDependencies:
       '@typescript-eslint/eslint-plugin': ^5.47.0
@@ -1784,7 +1784,7 @@ packages:
       '@typescript-eslint/parser': 5.48.0_iukboom6ndih5an6iafl45j2fe
       eslint: 8.31.0
       eslint-config-prettier: 8.6.0_eslint@8.31.0
-      eslint-plugin-editorconfig: 3.2.0_pztxdmiyjrarwygpoci73rl4sq
+      eslint-plugin-editorconfig: 4.0.2
       eslint-plugin-no-null: 1.0.2_eslint@8.31.0
     dev: true
 
@@ -1797,17 +1797,15 @@ packages:
       eslint: 8.31.0
     dev: true
 
-  /eslint-plugin-editorconfig/3.2.0_pztxdmiyjrarwygpoci73rl4sq:
-    resolution: {integrity: sha512-XiUg69+qgv6BekkPCjP8+2DMODzPqtLV5i0Q9FO1v40P62pfodG1vjIihVbw/338hS5W26S+8MTtXaAlrg37QQ==}
+  /eslint-plugin-editorconfig/4.0.2:
+    resolution: {integrity: sha512-soh4tQsztLlX2c9xb+HjeaZiF6Os/S6An5ZsF1fYCm5mZYm+5m7f3y+eUWqJpT3sKi0JjxuRLtxE/VpmLtDzfA==}
+    engines: {node: '>=14', npm: '>=8'}
     dependencies:
-      '@typescript-eslint/eslint-plugin': 5.48.0_k73wpmdolxikpyqun3p36akaaq
       editorconfig: 0.15.3
       eslint: 8.31.0
       klona: 2.0.5
     transitivePeerDependencies:
-      - '@typescript-eslint/parser'
       - supports-color
-      - typescript
     dev: true
 
   /eslint-plugin-no-null/1.0.2_eslint@8.31.0:
