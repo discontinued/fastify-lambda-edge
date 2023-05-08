@@ -35,7 +35,7 @@
     "prettier": "2.8.8",
     "prettier-config-escapace": "1.0.5",
     "semantic-release": "19.0.5",
-    "syncpack": "7.2.2",
+    "syncpack": "9.8.6",
     "typescript": "4.9.5"
   },
   "engines": {
