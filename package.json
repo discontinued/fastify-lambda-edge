@@ -7,7 +7,7 @@
   "devDependencies": {
     "@commitlint/cli": "16.3.0",
     "@commitlint/config-conventional": "16.2.4",
-    "@ls-lint/ls-lint": "1.11.2",
+    "@ls-lint/ls-lint": "2.0.0",
     "@types/aws-lambda": "8.10.115",
     "@types/chai": "4.3.5",
     "@types/lodash-es": "4.17.7",
